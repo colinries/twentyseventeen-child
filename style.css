@@ -6,10 +6,33 @@
  Author URI:   https://github.com/colinries/
  Template:     Twenty Seventeen
  Version:      1.0.0
- License:      
- License URI:  
+ License:
+ License URI:
  Tags:         full-width-template, grid-layout, single-column
  Text Domain:  twentyseventeen-child
 */
 
 import url("../twentyseventeen/style.css")
+
+.custom-header {
+	/*height: 1400pt;*/
+}
+
+.top-menu {
+	margin: auto;
+}
+
+.site-branding{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.site-title {
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 50pt;
+}
+
+.site-description {
+	font-family: 'Oswald', sans-serif;
+	font-size:20pt;
+}
